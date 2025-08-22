@@ -165,7 +165,7 @@ button:hover {
     margin-right: 7%;
 }
 .sec{
-    padding-left: 20%;
+    margin-inline: 10%;
 }
 .sec1{
     padding-right: 15%;
@@ -297,31 +297,13 @@ p{
     .first {
         display: flex;
         flex-direction: column;
-        margin: 0 3%;
         padding-top: 8vw;
     }
-    .first1 {
-        grid-column: unset;
-        order: 1;
-        text-align: center;
+    .first h1{
+        font-size: 2em;
+        margin-top: 0;
+        padding-top: 2%;
     }
-    .first1 h1 {
-        font-size: 1em;
-        margin-bottom: 1em;
-    }
-    .first1 p {
-        font-size: 1em;
-    }
-    .first2 {
-        order: 2;
-        display: flex;
-        justify-content: center;
-    }
-    .first2 img {
-        width: 90vw;
-        max-width: 400px;
-    }
-
     .second {
         margin: 6vw 3vw 0 3vw;
         display: flex;
@@ -457,7 +439,7 @@ p{
     .second1{
         display: block;
     }
-    .second1 img{
+    .sec img{
         padding: 0;
         margin: 0;
         height: 200px;
@@ -479,27 +461,24 @@ p{
     .hero{
         margin: 0;
     }
-    .first h1, .second h1, .three h1, .four h1 {
+    .second h1, .three h1, .four h1 {
         font-size: 1.5em;
-        margin: 0;
         margin-bottom: 2%;
-        padding: 0;
     }
     .four2 h2{
         font-size: 1em;
     }
     .second ul, .second p, .three p, .four p, .five p, .first p , .foo p{
-        font-size: 0.70em;
-        margin: 0;
-        padding: 0;
+        font-size: 0.98em;
+        
     }
 }
 
 /* Very small screens */
 @media (max-width: 550px) {
     .logo img {
-        width: 18vw;
-        max-width: 40px;
+        width: 30vw;
+        height: 6vw;
     }
     .hero{
         margin: 0;
@@ -509,16 +488,21 @@ p{
         padding: 1.2vw 2vw;
         margin: 0 1vw;
     }
-    .first h1, .second h1, .three h1, .four h1 {
-        font-size: 1.15em;
-        margin: 0;
-        margin-bottom: 2%;
-        padding: 0;
+    .first h1{
+        font-size: 2em;
     }
-    .second ul, .second p, .three p, .four p, .five p, .first p {
-        font-size: 0.90em;
-        margin: 0;
-        padding: 0;
+    .second h1, .three h1, .four h1 {
+        font-size: 2em;
+        margin-bottom: 2%;
+        
+    }
+    .second{
+        margin-top: 4%;
+    }
+    .first p, .sec1 p, .second p, .three p, .four p, .five p, .first p , .four2 p, .three2 p{
+        font-size: 0.98em;
+        margin-inline: 2%;
+        padding-inline: 2%;
     }
     button, .but {
         font-size: 0.98em;
@@ -530,43 +514,53 @@ p{
         margin-bottom: 2%;
         padding: 0;
     }
-    body{
-        margin: 0;
-        padding: 0;
-    }
-    .second{
-        padding: 0;
-        margin: 0;
-    }
-    .second h1{
-        margin: 0;
-        padding: 0;
-    }
-    .second p{
-        margin: 0;
-        padding: 0;
-    }
+    
     .second1{
         display: block;
+        align-items: center;
+        margin: 2%;
+        margin-top: 6%;
     }
-    .second1 img{
-        padding: 0;
+    .sec img {
+        max-width: 100%; 
+        height: auto;
+        max-height: 100%;
+    }
+    .sec{
+        margin-inline: 10%;
+        margin-top: 3%;
+    }
+    .sec1{
         margin: 0;
-        height: 200px;
-        width: 300px;
+        padding: 0;
+    }
+    .sec1 p{
+        margin-right: 0;
+        padding: 0;
     }
 
     .three1{
         display: block;
+        margin-inline: 2%;
     }
     .three2{
-        margin-top: 1%;
+        margin-block: 4%;
+
     }
     .four1{
         display: block;
+        margin-inline: 2%;
     }
     .four2{
         margin-top: 1%;
+        margin-inline: 0;
+    }
+    .three2 h2{
+        font-size: 1.2em;
+        margin-bottom: 2%;
+    }
+    .three2 p{
+        margin-top: 0%;
     }
 }
 

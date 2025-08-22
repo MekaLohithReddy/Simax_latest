@@ -29,8 +29,6 @@
     color:  #c67700;
     text-decoration: underline;
 }
-
-
 .logo img {
     height: 15%;
     width: 15%;
@@ -474,13 +472,12 @@ footer{
     }
     .second ul, .second p, .three p, .four p, .five p, .first p , .foo p{
         font-size: 0.90em;
-        margin: 0;
-        padding: 0;
     }
 }
 
 /* Very small screens */
 @media (max-width: 550px) {
+    
     .logo img {
         width: 30vw;
         height: 6vw;
@@ -492,6 +489,9 @@ footer{
         font-size: 2.5vw;
         padding: 1.2vw 2vw;
         margin: 0 1vw;
+    }
+    .nav{
+        margin-left: 0%;
     }
     .first1 h1{
         font-size: 2em;
@@ -523,7 +523,8 @@ footer{
         margin-left: 42%;
     }
     body{
-        margin-top: 0;
+        margin: 0;
+        padding: 0;
     }
     .first2{
         margin-top: 4%;
