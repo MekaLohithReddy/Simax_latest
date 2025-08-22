@@ -482,8 +482,8 @@ footer{
 /* Very small screens */
 @media (max-width: 550px) {
     .logo img {
-        width: 18vw;
-        max-width: 40px;
+        width: 30vw;
+        height: 6vw;
     }
     .hero{
         margin: 0;
@@ -493,11 +493,27 @@ footer{
         padding: 1.2vw 2vw;
         margin: 0 1vw;
     }
-    .first1 h1, .second h1, .three h1, .four h1 {
-        font-size: 1.15em;
+    .first1 h1{
+        font-size: 2em;
     }
-    .second1 ul, .second1 p, .three1 p, .four p, .five p {
+    .second h1, .three h1, .four h1 {
+        font-size: 2em;
+    }
+    .second2 h2{
+        font-size: 1.2em;
+    }
+    .three1 h2{
+        font-size: 1.2em;
+    }
+    li{
+        margin-left: 4%;
+    }
+    .second1 ul, .second1 p, .three1 p, .four p {
         font-size: 0.98em;
+    }
+    .five p{
+        font-size: 0.98em;
+        padding-inline: 2%;
     }
     button, .but {
         font-size: 0.98em;
@@ -505,6 +521,12 @@ footer{
     }
     .three img{
         margin-left: 42%;
+    }
+    body{
+        margin-top: 0;
+    }
+    .first2{
+        margin-top: 4%;
     }
 }
 
