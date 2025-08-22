@@ -295,10 +295,13 @@ footer{
     /* Body and general layout */
     body {
         margin-top: 18vw;
-        font-size: 1em;
+        font-size: 1em;  
+        margin: 0;
+        padding: 0;
     }
     
-    .three, .four, .five {
+    
+    .three,  .five {
         margin: 6vw 2vw;
         text-align: center;
         padding: 2vw 0;
@@ -379,16 +382,13 @@ footer{
         height: auto;
         display: block;
     }
-    .one h1, .two h1, .three h1,.three2 h2, .five h1 ,.t12 h2 ,.thr h1, .three h2, .thr2 h2{
-        font-size: 1.15em;
-        margin: 0;
-        padding: 0;
+    .one h1, .two h1, .three h1, .five h1 ,.t12 h2 ,.thr h1, .three h2, .thr2 h2{
+        font-size: 1.4em;
     }
     ul, .one p, .two p, .three p, .five p {
         font-size: 0.98em;
-        margin: 0;
         margin-top: 1%;
-        padding: 0;
+        margin-inline: 1%;
     }
     button, .but {
         font-size: 0.98em;
@@ -411,8 +411,8 @@ footer{
 /* Very small screens */
 @media (max-width: 550px) {
     .logo img {
-        width: 18vw;
-        max-width: 40px;
+        width: 30vw;
+        height: 6vw;
     }
     .hero{
         margin: 0;
@@ -422,15 +422,15 @@ footer{
         padding: 1.2vw 2vw;
         margin: 0 1vw;
     }
-    .one h1, .two h1, .three h1,.three2 h2, .five h1 ,.t12 h2 ,.thr h1, .three h2, .thr2 h2{
-        font-size: 1.15em;
-        margin: 0;
-        padding: 0;
+    .one h1, .two h1 {
+        font-size: 2em;
+        margin-inline: 2%;
+    }
+    .t12 h2 ,.thr h1, .three h2, .thr2 h2{
+        font-size: 1.2em;
     }
     ul,.one p, .two p, .three p, .five p {
         font-size: 0.98em;
-        margin: 0;
-        padding: 0;
     }
     button, .but {
         font-size: 0.98em;

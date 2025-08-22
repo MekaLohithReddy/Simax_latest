@@ -293,6 +293,8 @@ footer{
     body {
         margin-top: 18vw;
         font-size: 1em;
+        margin: 0;
+        padding: 0;
     }
     .first {
         display: flex;
@@ -351,29 +353,13 @@ footer{
     .second1 p {
         font-size: 1em;
     }
-    .three, .four, .five {
+    .five {
         margin: 6vw 2vw;
         text-align: center;
         padding: 2vw 0;
         border-radius: 16px;
     }
-    .three2, .four .three2 {
-        display: flex;
-        flex-direction: column;
-        gap: 3vw;
-    }
-    .three1 {
-        margin: 2vw 0;
-        padding: 3vw 2vw;
-        border-radius: 16px;
-        background-color: #FEFFD433;
-    }
-    .three1:hover {
-        border: 1.5px solid white;
-    }
-    .three1 p {
-        font-size: 1em;
-    }
+    
     .five h1 {
         font-size: 1.4em;
     }
@@ -449,7 +435,7 @@ footer{
         margin: 0;
         padding: 0;
     }
-    .second ul, .second p, .three p, .four p, .five p, .first p , .foo p{
+    .first p , .foo p{
         font-size: 0.90em;
         margin: 0;
         padding: 0;
@@ -459,11 +445,18 @@ footer{
 /* Very small screens */
 @media (max-width: 550px) {
     .logo img {
-        width: 18vw;
-        max-width: 40px;
+        width: 30vw;
+        height: 6vw;
     }
     .hero{
         margin: 0;
+    }
+    
+    .first{
+        margin: 0;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        padding: 0;
     }
     .nav .a1 {
         font-size: 2.5vw;
@@ -472,13 +465,9 @@ footer{
     }
     .first1 h1, .two h1,.two h2{
         font-size: 1.15em;
-        margin: 0;
-        padding: 0;
     }
     .two p, .five p ,.two h3{
         font-size: 0.98em;
-        margin: 0;
-        padding: 0;
     }
     button, .but {
         font-size: 0.98em;
@@ -490,6 +479,7 @@ footer{
     .two2{
         margin-top: 2%;
     }
+    
 }
 
 
